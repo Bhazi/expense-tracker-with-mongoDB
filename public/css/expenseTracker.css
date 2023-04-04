@@ -1,0 +1,205 @@
+h3 {
+  position: relative;
+  left: 13px;
+  /* top: 120px; */
+}
+
+#formSection {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  background: rgb(245, 233, 227);
+  background: linear-gradient(
+    78deg,
+    rgba(245, 233, 227, 1) 0%,
+    rgba(222, 217, 217, 1) 100%
+  );
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+
+  height: 85px;
+  position: relative;
+}
+
+#expenseTracking label {
+  font-weight: 700;
+  color: rgb(83, 77, 77);
+  margin-left: 19px;
+  padding-left: 44px;
+}
+
+
+#delete {
+  font-size: 0.64rem;
+  cursor: pointer;
+}
+
+#edit {
+  /* margin-top: -17px; */
+  position: absolute;
+  left: 552px;
+  font-size: 0.81rem;
+}
+
+#expenseTracking input,
+select,
+options {
+  border-color: rgb(229, 229, 229);
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  border-radius: 9px;
+  border: none;
+  font-size: 15px;
+  font-family: "Segoe UI";
+  padding-left: 9px;
+  margin-bottom: 36px;
+  height: 29px;
+}
+
+#expenseSubmit {
+  font-size: 15px;
+  border-color: rgb(229, 229, 229);
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  border-radius: 9px;
+  border: none;
+  margin-left: 30px;
+  padding-right: 7px;
+  height: 29px;
+  cursor: pointer;
+  width: 110px;
+  font-family: Arial;
+  font-weight: 100;
+}
+
+#rzp-button1 {
+  margin-top: 6px;
+  font-size: 16px;
+  width: 130px;
+  position: relative;
+  left: 90%;
+  border-radius: 5px;
+  background-color: rgb(243, 241, 241);
+  border: none;
+  height: 30px;
+  cursor: pointer;
+}
+
+#premium_user {
+  top: 90px;
+  font-size: 16px;
+  position: absolute;
+  left: 86%;
+}
+
+/* #lists {
+  position: relative;
+  left: 12px;
+  margin-top: 12px;
+  border-bottom: 2px solid;
+  border-color: rgb(196, 192, 192);
+  width: 50px;
+} */
+
+#leaderboard {
+  position: relative;
+  left: 12px;
+  border-bottom: 2px solid;
+  border-color: rgb(196, 192, 192);
+  width: 140px;
+}
+
+#showLeaderBoard {
+  margin-top: 15px;
+  margin-bottom: 19px;
+  position: relative;
+  font-size: small;
+  left: 30px;
+}
+
+#leaderboards p {
+  /* left: 12px; */
+  margin-left: 30px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  margin-top: 9px;
+  margin-bottom: 9px;
+  /* margin-left: 23px; */
+  width: 49%;
+  font-size: 16px;
+  font-family: Segoe UI Emoji;
+  padding-left: 35px;
+  padding-top: 9px;
+  padding-bottom: 17px;
+  border-radius: 12px;
+}
+
+#downloadFile {
+  font-size: 16px;
+  width: 130px;
+  position: absolute;
+  left: 89%;
+  border-radius: 5px;
+  background-color: rgb(243, 241, 241);
+  border: none;
+  height: 30px;
+  cursor: pointer;
+  margin-top: 51px;
+}
+
+#fileDownloaded {
+  margin-top: 91px;
+  font-size: 15px;
+  width: 190px;
+  position: absolute;
+  left: 85%;
+  border-radius: 7px;
+  background-color: rgb(243, 241, 241);
+  border: none;
+  height: 30px;
+  cursor: pointer;
+}
+
+#pagination {
+  margin-top: 20px;
+  position: relative;
+  left: 470px;
+}
+
+table {
+  margin-left: 90px;
+  border: none;
+  text-align: center;
+  border-collapse: separate;
+
+  border-spacing: 0 15px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 13px;
+}
+
+td,
+th {
+  width: 250px;
+  text-align: center;
+  padding: 5px;
+}
+td {
+  /* border-bottom: 1px solid black; */
+  border-left: none;
+  border-right: none;
+  border-top: none;
+
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 1px 1px,
+    rgba(27, 31, 35, 0.15) 0px 1px 0px 0px;
+  font-family: "Rubik", sans-serif;
+  color: rgb(83, 87, 87);
+}
+
+th {
+  border-bottom: 1px solid rgb(104, 102, 102);
+  /* box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px; */
+}
+
+#deleteId {
+  width: 90px;
+  padding-bottom: 11px;
+}

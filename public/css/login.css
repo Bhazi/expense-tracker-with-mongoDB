@@ -1,0 +1,75 @@
+#loginForm {
+  padding-left: 38px;
+  width: 425px;
+  height: 275px;
+  border-radius: 9px;
+  display: grid;
+  position: absolute;
+  left: 380px;
+  top: 120px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  background: rgb(241, 218, 189);
+  background: linear-gradient(
+    78deg,
+    rgba(241, 218, 189, 1) 0%,
+    rgba(232, 230, 230, 1) 100%
+  );
+}
+
+h1 {
+  font-family: "Bitter", serif;
+  color: rgb(90, 87, 86);
+  margin-bottom: -4px;
+}
+
+label {
+  color: rgb(73, 72, 70);
+  margin-top: 12px;
+  margin-bottom: -6px;
+  font-family: Leelawadee UI;
+}
+
+input {
+  color: rgb(56, 53, 50);
+  height: 15px;
+  /* padding-bottom: 12px; */
+  padding-left: 13px;
+  height: 31px;
+  font-family: Malgun Gothic;
+  font-size: medium;
+  font-weight: 0;
+  border-radius: 7px;
+  margin-bottom: -20px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  border: none;
+  width: 85%;
+}
+
+#submit {
+  color: rgb(95, 86, 73);
+  margin-top: 28px;
+  margin-bottom: -12px;
+  font-size: 16px;
+  width: 80px;
+  position: relative;
+  left: 297px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  border-radius: 8px;
+  border: none;
+  height: 30px;
+}
+
+#message {
+  color: rgb(226, 86, 86);
+  position: relative;
+  left: 680px;
+  top: 390px;
+  font-family: Lucida Sans Unicode;
+}
+
+#forgotPassword {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>log in</title>
+    <link rel="stylesheet" href="/css/login.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bitter&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <form id="loginForm" action="">
+      <h1>Log in</h1>
+      <label for="">Email</label>
+      <input
+        type="email"
+        name=""
+        id="email"
+        required
+        oninvalid="this.setCustomValidity('Enter email Here')"
+        oninput="this.setCustomValidity('')"
+      />
+      <label for="">Password</label>
+      <input
+        type="password"
+        name=""
+        id="password"
+        required
+        oninvalid="this.setCustomValidity('Enter Password Here')"
+        oninput="this.setCustomValidity('')"
+      />
+      <button type="submit" id="submit">Log in</button>
+      <a
+        href="http://localhost:4001/password/forgotPassword"
+        id="forgotPassword"
+        >Forgot password ?</a
+      >
+    </form>
+    <div id="message"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
+    <script src="/js/login.js"></script>
+  </body>
+</html>

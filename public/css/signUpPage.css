@@ -1,0 +1,69 @@
+#signUpForm {
+  padding-left: 38px;
+  width: 440px;
+  height: 340px;
+  border-radius: 9px;
+  display: grid;
+  position: absolute;
+  left: 380px;
+  top: 120px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  background: rgb(241, 218, 189);
+  background: linear-gradient(
+    78deg,
+    rgba(241, 218, 189, 1) 0%,
+    rgba(232, 230, 230, 1) 100%
+  );
+}
+
+h1 {
+  font-family: "Bitter", serif;
+  color: rgb(46, 44, 43);
+  margin-bottom: -1rem;
+}
+
+label {
+  color: rgb(78, 72, 64);
+  margin-top: 6px;
+  margin-bottom: -29px;
+  font-family: Leelawadee UI;
+}
+
+input {
+  color: rgb(56, 53, 50);
+  height: 15px;
+  /* padding-bottom: 12px; */
+  padding-left: 13px;
+  height: 31px;
+  font-family: Malgun Gothic;
+  font-size: medium;
+  font-weight: 0;
+  border-radius: 7px;
+  margin-bottom: -85px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  border: none;
+  width: 85%;
+}
+
+#submit {
+  color: rgb(95, 86, 73);
+  margin-top: 14px;
+  font-size: 16px;
+  padding-left: 6px;
+  padding-bottom: 4px;
+  margin-bottom: 3px;
+  width: 80px;
+  position: relative;
+  left: 310px;
+  height: 30px;
+}
+
+#message {
+  color: rgb(226, 86, 86);
+  position: relative;
+  left: 705px;
+  top: 455px;
+  font-family: Lucida Sans Unicode;
+}

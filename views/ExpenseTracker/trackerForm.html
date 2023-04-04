@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+      integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/expenseTracker.css" />
+    <title>Expense Tracker</title>
+  </head>
+  <body>
+    <div>
+      <div id="formSection">
+        <form id="expenseTracking">
+          <label style="margin-left: 12px">Expense Amount :</label>
+          <input
+            required
+            style="margin-top: 25px"
+            type="number"
+            name="amount"
+            id="expense"
+          />
+          <label style="margin-left: 12px" for="">Description :</label>
+          <input
+            required
+            style="margin-top: 25px"
+            type="text"
+            name="desc"
+            id="description"
+          />
+          <label style="margin-left: 12px" for="">Category :</label>
+          <select
+            id="categories"
+            class="form-select"
+            aria-label="Default select example"
+            name="category"
+          >
+            <option>Movies</option>
+            <option>Fashion</option>
+            <option>Grocery</option>
+            <option>Tour</option>
+            <option>School Fees</option>
+            <option>Electric Fees</option>
+            <option>Other</option>
+          </select>
+          <input id="hidden" type="hidden" title="" />
+          <button id="expenseSubmit" type="submit">Add Expense</button>
+        </form>
+      </div>
+    </div>
+    <div>
+      <div id="premium">
+        <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+        <button id="rzp-button1">Buy Premium</button>
+      </div>
+      <button id="downloadFile">Download File</button>
+      <button id="fileDownloaded">List of file downloaded</button>
+    </div>
+    <div id="lists">
+      <label
+        for=""
+        style="margin-left: 30px; margin-top: 19px; margin-right: 12px"
+        >Rows Per Page :</label
+      >
+      <select id="rowsPerPage" class="form-select form-select-lg">
+        <option value="">select</option>
+        <option value="5">5</option>
+        <option value="10">10</option>
+        <option value="20">20</option>
+        <option value="50">50</option>
+      </select>
+    </div>
+    <div id="contents">
+      <div>
+        <div id="elements">
+          <table id="table">
+            <tr id="heading">
+              <th>Expense</th>
+              <th>Description</th>
+              <th>Category</th>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div id="pagination"></div>
+      <div>
+        <input
+          type="button"
+          id="showLeaderBoard"
+          class="btn btn-outline-secondary"
+          value="Show leaderboard"
+        />
+        <div id="leaderboards"></div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
+    <script src="/js/trackerForm.js"></script>
+    <script src="/js/leaderboard.js"></script>
+    <script src="/js/downloadFile.js"></script>
+  </body>
+</html>

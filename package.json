@@ -1,0 +1,40 @@
+{
+  "name": "sample-login-page",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "start-server": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bhazi/sample-ExpenseTracker-Application.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bhazi/sample-ExpenseTracker-Application/issues"
+  },
+  "homepage": "https://github.com/Bhazi/sample-ExpenseTracker-Application#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1313.0",
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "helmet": "^6.0.1",
+    "jsonwebtoken": "^9.0.0",
+    "mongodb": "^5.1.0",
+    "mongoose": "^7.0.3",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.1.0",
+    "nodemon": "^2.0.20",
+    "razorpay": "^0.0.0",
+    "sequelize": "^6.28.0",
+    "sib-api-v3-sdk": "^8.5.0",
+    "uuid": "^9.0.0"
+  },
+  "description": ""
+}
